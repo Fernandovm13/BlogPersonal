@@ -1,0 +1,150 @@
+/*Estilos Genrales*/
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 10px;
+}
+
+/*Estilos de Encabezado*/
+
+header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 100px;
+ 
+}
+
+
+
+
+header h1{
+    font-size: 28px;
+}
+
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 5px;
+}
+
+header nav ul  li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Estilos del contenido principal*/
+
+main{
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 1px;
+}
+
+main section{
+    margin-bottom: 10px;
+    padding-bottom: 500px;
+}
+
+main section h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main section p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main section ul{
+    list-style: none;
+    display: flex;
+}
+
+
+/*Estilos del pie de pagina*/
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+main img{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+body{
+    background-image: url(fondo.jpg);
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    src: url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200') format('woff2');
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+  }
+
+  #contacto ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#contacto li {
+    margin-bottom: 1000px;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el ícono y el texto */
+    
+}
+
+#contacto li.facebook-icon i {
+    color: blue;
+    font-size: 30px;
+}
+
+#contacto li.instagram-icon i {
+    color: #bc2a8d; /* Color original de Instagram */
+    font-size: 30px;
+}
+
+#contacto li.tiktok-icon i {
+    color: #000; 
+    font-size: 24px; 
+}
